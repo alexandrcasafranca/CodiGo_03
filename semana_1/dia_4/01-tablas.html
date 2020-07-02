@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tablas</h1>
+    </header>
+
+    <main>
+        <section style="display: none;">
+            <h2>Tablas Simples</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Curso</th>
+                        <th>Duración</th>
+                        <th>Categoría</th>
+                    </tr>                    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Programación con Python</td>
+                        <td>300 horas</td>
+                        <td>Backend</td>
+                    </tr> 
+
+                    <tr>
+                        <td>2</td>
+                        <td>Adobe Illustrator</td>
+                        <td>30 horas</td>
+                        <td>UX/UI</td>
+                    </tr> 
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>330 horas</td>
+                        <td>-</td>
+                    </tr> 
+                </tfoot>
+            </table>            
+        </section>
+
+        <section style="display:none;">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>item</th>
+                        <th>Cantidad</th>
+                        <th>Descripción</th>
+                        <th>Precio unitario</th>
+                        <th>Precio total</th>
+                    </tr>  
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>10</td>
+                        <td>mouse</td>
+                        <td>30.00</td>
+                        <td>300.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>C.HDMI</td>
+                        <td>20.00</td>
+                        <td>100.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>usb1TB</td>
+                        <td>70.00</td>
+                        <td>70.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>-</td>
+                        <td>16</td>
+                        <td>TOTAL</td>
+                        <td></td>
+                        <td>470.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section style="display:none;">
+            <h2>Tablas con columnas combinadas</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Cabecera 1</th>
+                        <th>Cabecera 2</th>
+                        <th>Cabecera 3</th>
+                        <th>Cabecera 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Contenido 1</td>
+                        <td colspan="2">Contenido 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Contenido 1</td>
+                        <td colspan="2">Contenido 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">TOTAL</td>
+                        <td>56</td>
+                    </tr>
+                </tfoot>
+            </table>   
+        </section>
+
+        <section style="display:none;">
+            <h2>Tablas con filas combinadas</h2>
+            <table border="1">
+                <tr>
+                    <td rowspan="3">Fila 1</td> <td>Fila1</td> <td>Fila1</td>
+                </tr>
+                <tr>
+                      <td>Fila1</td> <td>Fila1</td>
+                </tr>
+                <tr>
+                     <td>Fila1</td> <td>Fila1</td>
+                </tr>
+            </table>
+            
+        </section>        
+
+        <section style="display: none;">
+            <table border="1">
+                <tr>
+                    <td colspan="3">Cabecera1</td> <td>Cabecera1</td> <td rowspan="2">Cabecera1</td>               
+                </tr>
+                <tr>
+                    <td>Cabecera1</td> <td>Cabecera1</td> <td>Cabecera1</td> <td>Cabecera1</td>                                
+                </tr>
+                <tr>
+                    <td>Cabecera1</td> <td colspan="3" rowspan="2">Cabecera1</td> <td>Cabecera1</td> 
+                                  
+                </tr>
+                <tr>
+                    <td>Cabecera1</td> <td>Cabecera1</td>               
+                </tr>   
+                <tr>
+                    <td>Cabecera1</td> <td>Cabecera1</td> <td>Cabecera1</td> <td>Cabecera1</td>  <td>Cabecera1</td>            
+                </tr>                
+                
+            </table>
+            
+        </section>
+
+        <section>
+            <h2>Ejercicio Resuelto 18 * 8</h2>
+
+            <table border="1">
+                <tr>
+                    <td rowspan="8">Texto 1</td> 
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+
+                <tr>
+                   
+                    <td>Texto 2</td>
+                    <td>Texto 3</td>
+                    <td>Texto 4</td>
+                    <td>Texto 5</td>
+                    <td>Texto 6</td>
+                    <td>Texto 7</td>
+                    <td>Texto 8</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    
+    
+</body>
+</html>
