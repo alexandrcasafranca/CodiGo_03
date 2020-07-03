@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid coral;
+    background: -webkit-linear-gradient(top,cornsilk,coral);
+}
+
+.section2 {
+    width: 200px;
+    height: 200px;
+    background: -webkit-radial-gradient(center, circle, #09795e, #00d4ff);
+}
